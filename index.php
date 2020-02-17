@@ -1,40 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+<?php include_once('header.php'); ?>
 
-        <div>
-                <ul>
-                    <li>
-                        <a href="view/fahrenheit.php">
-                            Fahrenheit
-                        </a>
-                    </li>
-                    <li>
-                        <a href="view/maior.php">
-                            Maior
-                        </a>
-                    </li>
-                    <li>
-                        <a href="view/mediaponderada.php">
-                            Média
-                        </a>
-                    </li>
-                    <li>
-                        <a href="view/desempenhoaluno.php">
-                            Desempenho do Aluno
-                        </a>
-                    </li>
+    <div class="principal">
+    <?php
+  
 
-                </ul>    
+  $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 'home';
 
-        </div>
+  switch($pagina){
 
+      case 'home':
+          include_once 'view/home.php';
+          break;
 
-</body>
-</html>
+      case 'fahrenheit':
+          include_once 'view/fahrenheit.php';
+          break;
+
+      case 'maior':
+          include_once 'view/maior.php';
+          break;
+      
+      case 'mediaponderada':
+          include_once 'view/mediaponderada.php';
+          break;
+
+      case 'desempenho':
+          include_once 'view/desempenho.php';
+          break;
+
+          default: 
+          include_once 'view/home.php';
+  }
+
+    ?>
+    </div>
+
+<?php include_once('footer.php');?>

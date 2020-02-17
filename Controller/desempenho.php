@@ -4,9 +4,9 @@
 
     $first = isset($_POST['nota']) ? $_POST['nota'] : '';
 
-    $maior = new Maior();
+    $desempenho = new Desempenho();
 
-    $result = $maior->verificarMaior($first,$second);
+    $result = $desempenho->verificarDesempenho($first,$second);
 
 
-   header("Location: ../view/maior.php?result= $result");
+    header("Location: http://localhost/Exercise/?pagina=desempenho&result= $result");

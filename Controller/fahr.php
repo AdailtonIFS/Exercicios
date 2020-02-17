@@ -2,11 +2,11 @@
 
     include_once '../model/fah.php';
 
-    $f = isset($_POST['F']) ? $_POST['F'] : '';
+    $f = isset($_POST['f']) ? $_POST['f'] : '';
 
     $fah = new Fahrenheit();
 
     $result = $fah->converterFahrenheit($f);
 
-    header("Location: ../view/fahrenheit.php?result= $result");
+    header("Location: http://localhost/Exercise/?pagina=fahrenheit&result= $result");
 

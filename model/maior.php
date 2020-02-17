@@ -4,10 +4,20 @@
     {
         function verificarMaior($firstnumber, $secondnumber)
         {
+            if(!empty($firstnumber) && !empty($secondnumber)){
+
             if ($firstnumber > $secondnumber){
-                return $firstnumber;
+                return "O maior número é ".$firstnumber;
+            }
+                else
+                    if($secondnumber > $firstnumber){
+                        return "O maior número é ". $secondnumber;
+                    }
+                        else{
+                            return "Os números são iguais";
+                        }
             }else{
-                return $secondnumber;
+                return "Preencha todos os campos";
             }
 
         }

@@ -6,7 +6,7 @@
         {
           $C = ($f - 32) * (5 / 9);
 
-          return $C;
+          return "Temperatura em Fahrenheit <br>".$C."°F";
 
         }
     }

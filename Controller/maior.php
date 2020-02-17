@@ -10,4 +10,4 @@
     $result = $maior->verificarMaior($first,$second);
 
 
-   header("Location: ../view/maior.php?result= $result");
+   header("Location: http://localhost/Exercise/?pagina=maior&result= $result");

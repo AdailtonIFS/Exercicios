@@ -1,10 +1,17 @@
-<form action="../Controller/fahr.php" method="post">
+<div class="container">
+    <form action="Controller/fahr.php" method="POST">
+    
+    <h1 id="titulo">Converter para Fahrenheit:</h1>
 
-    <input type="text" name="F">
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="form-group">
+        <label for="firstNumber">Temperatura °C</label>
+        <input autocomplete="off" type="number" step="0.01" class="form-control" name="f" id="firstNumber">
+    </div>
+    
+    <button type="submit" id="button" class="btn btn-primary">Enviar</button>
+    </form>
 
-</form>
-
-<?php if(isset($_GET['result'])){ ?>
-<span><?= "C = ".$_GET['result']?></span>
-<?php } ?>
+    <?php if(isset($_GET['result'])){ ?>
+        <span id="msg"><?= $_GET['result']?></span>
+        <?php } ?>
+</div>
