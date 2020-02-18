@@ -28,6 +28,10 @@
           include_once 'view/desempenho.php';
           break;
 
+        case 'refresh':
+            include_once 'view/refresh.php';
+            break;
+
           default: 
           include_once 'view/home.php';
   }
