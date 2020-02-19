@@ -12,6 +12,6 @@
     </form>
 
     <?php if(isset($_GET['result'])){ ?>
-        <span id="msg"><?= $_GET['result']?></span>
+        <span id="msg"><?=  $_GET['result']?></span>
         <?php } ?>
 </div>

@@ -31,10 +31,10 @@ body {
     width: 800px;
     height: 600px;
     background-color: rgb(155, 155, 155);
-    overflow: hidden;
+    overflow: auto;
 }
 
-.container {
+.home {
     min-height: calc(100vh - 110px);
     display: flex;
     flex-direction: row;
