@@ -17,6 +17,15 @@
                 <li class="exercise">
                     <a href="?pagina=refresh">Refresh</a>
                 </li>
+                <li class="exercise">
+                    <a href="?pagina=radio">Radio Button</a>
+                </li>
+                <li class="exercise">
+                    <a href="?pagina=imc">IMC</a>
+                </li>
+                <li class="exercise">
+                    <a href="?pagina=apart">Apartamento</a>
+                </li>
             </ul>
         </div>
     </div>

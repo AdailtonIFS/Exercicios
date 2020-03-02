@@ -44,7 +44,7 @@ body {
 
 .exercise {
     margin: 10px;
-    width: 150px;
+    width: 170px;
     height: 100px;
     background-color: aquamarine;
     display: flex;
@@ -68,6 +68,10 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+#checkbox {
+    margin: 10px;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -85,4 +89,5 @@ ul {
 ul>.exercise a {
     color: white;
     text-decoration: none;
+    font-size: 1.3rem;
 }

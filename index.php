@@ -32,6 +32,18 @@
             include_once 'view/refresh.php';
             break;
 
+        case 'radio':
+            include_once 'view/radiobutton.php';
+            break;
+
+        case 'imc':
+            include_once 'view/imc.php';
+            break;
+            
+        case 'apart':
+            include_once 'view/apartamento.php';
+            break;
+
           default: 
           include_once 'view/home.php';
   }
