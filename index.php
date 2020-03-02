@@ -40,10 +40,18 @@
             include_once 'view/imc.php';
             break;
             
-        case 'apart':
-            include_once 'view/apartamento.php';
-            break;
+            case 'apart':
+                include_once 'view/apartamento.php';
+                break;
 
+            case 'inss':
+                include_once 'view/aposent.php';
+                break;
+
+            case 'verificarsala':
+                include_once 'view/verificarsala.php';
+                break;
+            
           default: 
           include_once 'view/home.php';
   }

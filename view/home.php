@@ -26,6 +26,12 @@
                 <li class="exercise">
                     <a href="?pagina=apart">Apartamento</a>
                 </li>
+                <li class="exercise">
+                    <a href="?pagina=inss">Aposentadoria</a>
+                </li>
+                <li class="exercise">
+                    <a href="?pagina=verificarsala">Verificar Sala</a>
+                </li>
             </ul>
         </div>
     </div>
