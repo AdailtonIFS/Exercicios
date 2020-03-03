@@ -32,6 +32,21 @@
                 <li class="exercise">
                     <a href="?pagina=verificarsala">Verificar Sala</a>
                 </li>
+                <li class="exercise">
+                    <a href="?pagina=caracter">Caractér Entities</a>
+                </li>
+                <li class="exercise">
+                    <a href="?pagina=textopredefinido">Texto Predefinido</a>
+                </li>
+                <li class="exercise">
+                    <a href="?pagina=estilodetexto">Estilos de Texto</a>
+                </li>
+                <li class="exercise">
+                    <a href="?pagina=predefinidoprática">Texto Predefinido PRÁTICA</a>
+                </li>
+                <li class="exercise">
+                    <a href="?pagina=formatarFonte">Formatar fonte</a>
+                </li>
             </ul>
         </div>
     </div>

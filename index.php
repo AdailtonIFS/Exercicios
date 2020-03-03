@@ -51,7 +51,27 @@
             case 'verificarsala':
                 include_once 'view/verificarsala.php';
                 break;
-            
+
+            case 'caracter':
+                include_once 'view/caracterEntities.php';
+                break;
+
+            case 'textopredefinido':
+                include_once 'view/textopredefinido.php';
+                break;
+
+            case 'estilodetexto':
+                include_once 'view/estilotexto.php';
+                break;
+
+            case 'predefinidoprática':
+                include_once 'view/praticapredefinido.php';
+                break;
+
+            case 'formatarFonte':
+                include_once 'view/formatarFonte.php';
+                break;
+        
           default: 
           include_once 'view/home.php';
   }

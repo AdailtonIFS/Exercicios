@@ -8,7 +8,7 @@
     if(!empty($nome) && !empty($curso)){
         echo $result = $verificar->verificarSala($nome,$curso);
 
-       //header("Location: http://localhost/Exercise/?pagina=apart&result=$result");
+       header("Location: http://localhost/Exercise/?pagina=verificarsala&result=$result");
     }else{
-        //header("Location: http://localhost/Exercise/?pagina=apart&result=Preencha todos os campos");
+           header("Location: http://localhost/Exercise/?pagina=verificarsala&result=Preencha todos os campos");
     }
