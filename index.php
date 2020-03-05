@@ -71,6 +71,14 @@
             case 'formatarFonte':
                 include_once 'view/formatarFonte.php';
                 break;
+
+            case 'formatarTexto':
+                include_once 'view/formatarTexto.php';
+                break;
+
+            case 'estiloFTexto':
+                include_once 'view/EstiloeFormataçãodeTexto.php';
+                break;
         
           default: 
           include_once 'view/home.php';

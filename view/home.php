@@ -47,6 +47,13 @@
                 <li class="exercise">
                     <a href="?pagina=formatarFonte">Formatar fonte</a>
                 </li>
+                <li class="exercise">
+                    <a href="?pagina=formatarTexto">Formatar Texto</a>
+                </li>
+
+                <li class="exercise">
+                    <a href="?pagina=estiloFTexto">Estilo e Formatação de Texto</a>
+                </li>
             </ul>
         </div>
     </div>
