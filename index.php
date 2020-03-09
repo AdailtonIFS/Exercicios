@@ -79,6 +79,18 @@
             case 'estiloFTexto':
                 include_once 'view/EstiloeFormataçãodeTexto.php';
                 break;
+
+            case 'select':
+                include_once 'view/select.php';
+                break;
+
+            case 'lanchonete':
+                include_once 'view/lanchonete.php';
+                break;
+
+            case 'checkbox':
+                include_once 'view/checkbox.php';
+                break;
         
           default: 
           include_once 'view/home.php';

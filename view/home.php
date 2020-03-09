@@ -54,6 +54,17 @@
                 <li class="exercise">
                     <a href="?pagina=estiloFTexto">Estilo e Formatação de Texto</a>
                 </li>
+
+                <li class="exercise">
+                    <a href="?pagina=select">Select</a>
+                </li>
+                <li class="exercise">
+                    <a href="?pagina=lanchonete">lanchonete</a>
+                </li>
+
+                <li class="exercise">
+                    <a href="?pagina=checkbox">CheckBox</a>
+                </li>
             </ul>
         </div>
     </div>
