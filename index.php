@@ -91,6 +91,32 @@
             case 'checkbox':
                 include_once 'view/checkbox.php';
                 break;
+
+            case 'cssemfontes':
+                include_once 'view/cssemfontes.php';
+                break;
+
+            case 'cssemtexto':
+                include_once 'view/cssemtexto.php';
+                break;
+
+            case 'cssmargem':
+                include_once 'view/cssmargem.php';
+                break;
+
+            case 'cssbordas':
+                include_once 'view/cssbordas.php';
+                break;
+
+            case 'cssbackground':
+                include_once 'view/cssbackground.php';
+                break;
+
+            case 'csslista':
+                include_once 'view/csslistas.php';
+                break;
+
+                
         
           default: 
           include_once 'view/home.php';
