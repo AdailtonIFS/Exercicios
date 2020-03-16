@@ -116,6 +116,14 @@
                 include_once 'view/csslistas.php';
                 break;
 
+            case 'atividade01':
+                include_once 'view/atividade01.php';
+                break;
+
+            case 'atividade02':
+                include_once 'view/atividade02.php';
+                break;
+
                 
         
           default: 

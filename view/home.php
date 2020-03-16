@@ -158,6 +158,18 @@
                     </a>
                 </li>
 
+                <li class="exercise">
+                    <a href="?pagina=atividade01">
+                        Atividade 01
+                    </a>
+                </li>
+
+                <li class="exercise">
+                    <a href="?pagina=atividade02">
+                        Atividade 02
+                    </a>
+                </li>
+
             </ul>
         </div>
     </div>
